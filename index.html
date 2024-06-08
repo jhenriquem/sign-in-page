@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e78161c1f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Sign in</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body class="bg-slate-100 min-h-screen flex justify-center items-center">
+    <main
+      class="w-full h-screen bg-white sm:w-4/6 sm:shadow-xl sm:h-auto sm:rounded-xl lg:w-9/16 lg:grid lg:grid-cols-2"
+    >
+      <section
+        class="w-full h-full flex justify-center flex-col items-center gap-y-8 px-4 py-20 lg:rounded-l-lg"
+      >
+        <h1 class="font-bold font-roboto text-zinc-800 text-6xl">Sign in</h1>
+        <div class="flex justify-center items-center gap-x-4">
+          <button class="media-buttons">
+            <i class="fa-brands fa-google"></i>
+          </button>
+          <button class="media-buttons">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </button>
+          <button class="media-buttons">
+            <i class="fa-brands fa-github"></i>
+          </button>
+        </div>
+        <div class="flex flex-col w-full items-center justify-center gap-y-6">
+          <legend class="text-xs font-normal text-zinc-800">
+            or use your account
+          </legend>
+          <input
+            type="email"
+            placeholder="Email"
+            class="p-3 w-4/5 bg-gray-100 rounded-md outline-0"
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            class="p-3 w-4/5 bg-gray-100 rounded-md outline-0"
+          />
+          <legend class="text-xs text-zinc-800 font-normal">
+            Forgot your password ?
+          </legend>
+          <button
+            class="py-3 px-14 font-mono font-semibold text-md text-white rounded-3xl bg-violet-600 hover:bg-violet-700 transition-colors"
+          >
+            Sign In
+          </button>
+        </div>
+      </section>
+      <section
+        class="hidden bg-violet-600 lg:flex lg:justify-center lg:rounded-r-xl lg:text-white lg:p-4"
+      >
+        <div class="flex justify-center flex-col items-center w-3/5 gap-y-8">
+          <h1 class="text-gray-50 font-bold font-roboto text-6xl">Hello!</h1>
+          <p class="text-gray-50 text-center">
+            It's your first time here? Enter your personal details and start
+            your journey with us
+          </p>
+          <button
+            class="py-3 px-14 border-2 border-gray-50 rounded-3xl hover:text-lg transition-all"
+          >
+            Sign Up
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
